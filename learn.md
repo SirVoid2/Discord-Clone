@@ -1,12 +1,85 @@
-# Project Setup
+# Discord-Clone
+<!-- TABLE OF CONTENTS -->
 
-### Fork the repo:
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#1 Introduction">Introduction</a>
+    </li>
+    <li>
+      <a href="#2 Key Features">Key Features</a>
+    </li>
+    <li>
+      <a href="#3 Tech Stacks">Tech Stacks</a>
+    </li>
+    <li>
+      <a href="#4 How to set up?">How to set up?</a>
+    </li>
+    <li>
+      <a href="#5 Snaps">Snaps</a>
+    </li>
+  </ol>
+</details>
 
-To contribute to this Discord-Clone, you must first fork the [Discord-Clone](https://github.com/Yeasir0032/Discord-Clone) repo.
+# <a name="1 Introduction">Introduction:</a>
 
-### Clone the repo:
+A clone of Discord with features like realtime chat app, roles, file sharing, servers...etc,
+- React is used along with Redux to power front-end.
+- Redux to manage state along with Redux Saga.
+- React Routing with Error handling and Discord Loading between pages.
+- Firebase is used for authentication and firestore to store messages, users and servers.
+- Material UI is used along with SASS with a little of styled components for UI.
 
-1. Clone your GitHub forked repo:
+# <a name="2 Key Features">Key Features:</a>
+
+- Server Channels
+  
+  i)   Create channels
+  
+  ii)  Delete channels
+  
+- Message Management
+
+  i) Server owners can delete any message
+  
+  ii) Message author can delete and edit their own messages
+  
+- Member Management
+  
+  i) Kick members as the server owner
+  
+  ii) Easily leave the server by right clicking the server
+  
+  iii) Join servers with an invite code
+  
+- Server Management
+  
+  i) Create servers as you would in Discord
+
+  ii) Edit server name, and icon URL in the server settings
+
+  iii) Delete your server in the server settings
+  
+- User Management
+  
+  i) Manage your account by clicking the settings icon
+  
+  ii) Change your username, and avatar
+  
+  iii)Delete your user and prevent it from being used to login
+
+# <a name="3 Tech Stacks">Tech Stacks:</a>
+
+- TypeScript: 97.9%
+
+- Javascript: 1.3%
+
+- CSS: 0.8%
+
+# <a name="4 How to set up?">How to set up?</a>
+
+1. Clone the repository: git clone
 
    ```sh
    git clone https://github.com/<github_username>/Discord-Clone
